@@ -1,0 +1,13 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY debuggableTrafficLightController IS
+	PORT (
+		GClock, GReset, SSCS, RxD : IN STD_LOGIC;
+		SW1, SW2 : IN STD_LOGIC_VECTOR(3 downto 0);
+		TxD : OUT STD_LOGIC;
+		MSTL, SSTL : OUT STD_LOGIC_VECTOR(2 downto 0);
+		
+	);
+END debuggableTrafficLightController;
+	
