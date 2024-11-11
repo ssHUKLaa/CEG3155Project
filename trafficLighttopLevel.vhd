@@ -93,7 +93,6 @@ architecture basic of trafficLighttopLevel IS
 	signal SSTLReachedEnd : STD_LOGIC;
 	signal SSTReachedEnd : STD_LOGIC;
 	signal MTReachedEnd : STD_LOGIC;
-	signal debouncedSSCS : STD_LOGIC;
 begin
 	MT <= "1100";
 	SST <= "1000"; 
@@ -101,7 +100,7 @@ begin
 	
 	STDtransitoryMSTL <= STDtransitoryMSTLDecider;
 	STDtransitorySSTL <= STDtransitorySSTLDecider;
-	MSLTHoldCond <= MSTLReachedEnd AND NOT debouncedSSCS;
+	MSLTHoldCond <= MSTLReachedEnd AND NOT SSCS;
 		
 	counter_4bit_MSLTimer : counter_4bit
 		PORT MAP (
@@ -167,10 +166,11 @@ begin
 			isEqual => SSTReachedEnd
 		);
 		
-	MSTLIsGreen <= (((NOT debouncedSSCS OR NOT MSTLReachedEnd) AND (STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0))) OR 
-	(SSTReachedEnd OR (NOT STDtransitoryMSTL(1) OR NOT STDtransitoryMSTL(0)))) AND NOT (MSTLIsYellow OR STDtransitorySSTL(1) OR STDtransitorySSTL(0)) AND NOT SSTLIsGreen;
+	MSTLIsGreen <= (((NOT SSCS OR NOT MSTLReachedEnd) AND (STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0))) OR 
+	(SSTReachedEnd OR (NOT STDtransitoryMSTL(1) OR NOT STDtransitoryMSTL(0)))) 
+	AND NOT (MSTLIsYellow OR STDtransitorySSTL(1) OR STDtransitorySSTL(0)) AND NOT SSTLIsGreen;
 	
-	MSTLIsYellow <= (((debouncedSSCS AND MSTLReachedEnd) AND (STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0))) OR 
+	MSTLIsYellow <= (((SSCS AND MSTLReachedEnd) AND (STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0))) OR 
 	(NOT MTReachedEnd AND (NOT STDtransitoryMSTL(1) AND STDtransitoryMSTL(0))));
 	
 	MSTLIsRed <= (MTReachedEnd AND (NOT STDtransitoryMSTL(1) AND STDtransitoryMSTL(0))) OR 

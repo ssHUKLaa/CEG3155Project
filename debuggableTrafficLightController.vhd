@@ -154,9 +154,6 @@ begin
 			d_out => transitoryClock
 		);
 		
-	-- use transitory clock
-	
-	--get state information
 	trafficLighttopLevel_inst : trafficLighttopLevel
 		PORT MAP (
 			GClock => transitoryClock,
