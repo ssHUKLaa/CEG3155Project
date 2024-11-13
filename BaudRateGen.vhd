@@ -65,11 +65,11 @@ ARCHITECTURE basic of BaudRateGen IS
 	
 	SIGNAL fourty, clockVal : STD_LOGIC_VECTOR(5 downto 0);
 	SIGNAL newclk : STD_LOGIC_VECTOR(7 downto 0);
-	SIGNAL STDDiv41Clock, div41IsEqual, resetCheck : STD_LOGIC;
+	SIGNAL STDDiv41Clock, div41IsEqual, div41IsEqualGated, resetCheck : STD_LOGIC;
 	SIGNAL STDDiv41ClockValue : STD_LOGIC := '1';
 begin
 	fourty <= "101000";
-	resetCheck <= GReset OR div41IsEqual;
+	resetCheck <= GReset OR div41IsEqualGated;
 	
 	counter_6bit_div41 : counter_6bit
 		PORT MAP (
@@ -86,10 +86,20 @@ begin
 			B => fourty,
 			isEqual => div41IsEqual
 		);
+		
+	d_FF_Gate_isEqual : d_FF
+		PORT MAP (
+			i_d => div41IsEqual,
+			i_en => '1',
+			i_reset => GReset,
+			i_clock => GClock,
+			o_q => div41IsEqualGated,
+			o_qBar => open
+		);
 	
-	STDDiv41ClockValue <= ((STDDiv41Clock XOR div41IsEqual) AND NOT GReset) OR GReset;
-
-	d_FF_showClock : d_FF
+	STDDiv41ClockValue <= ((STDDiv41Clock XOR div41IsEqualGated) AND NOT GReset) OR GReset;
+	
+	d_FF_Gate_clk : d_FF
 		PORT MAP (
 			i_d => STDDiv41ClockValue,
 			i_en => '1',
