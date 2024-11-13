@@ -6,14 +6,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity equality_Comparator_4bit
 -- Compiling architecture basic of equality_Comparator_4bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity d_FF
--- Compiling architecture rtl of d_FF
-
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -80,15 +72,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_2to1_4bit
 -- Compiling architecture structural of mux_2to1_4bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity counter_4bit
--- Compiling architecture Structural of counter_4bit
-
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\BaudRateGen.vhd}
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -96,13 +80,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity BaudRateGen
 -- Compiling architecture basic of BaudRateGen
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\counter_4bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity trafficLighttopLevel
--- Compiling architecture basic of trafficLighttopLevel
+-- Compiling entity counter_4bit
+-- Compiling architecture Structural of counter_4bit
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -128,7 +112,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity enabledSRLatch
 -- Compiling architecture rtl of enabledSRLatch
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\BCD_to_7Segment.vhd}
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
