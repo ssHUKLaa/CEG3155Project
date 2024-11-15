@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.ALL;
 ENTITY UARTTransmitter IS
 	PORT (
 		loadTDR, GReset, GClock, BaudRate, shiftLoad : IN STD_LOGIC;
-		D_In : IN STD_LOGIC_VECTOR(7 downto 0);
+		D_In : IN STD_LOGIC_VECTOR(6 downto 0);
 		TxD, TDRE : OUT STD_LOGIC
 	);
 END UARTTransmitter;
@@ -31,6 +31,13 @@ ARCHITECTURE basic of UARTTransmitter IS
 			i_shift_Load	: IN	STD_LOGIC;
 			i_clock		: IN	STD_LOGIC;
 			s_out	: OUT	STD_LOGIC
+		);
+	END COMPONENT;
+	
+	COMPONENT parityGen
+		PORT (
+			i_d	: IN	STD_LOGIC_VECTOR(6 downto 0);
+			p_out	: OUT	STD_LOGIC
 		);
 	END COMPONENT;
 	
@@ -61,20 +68,34 @@ ARCHITECTURE basic of UARTTransmitter IS
 	END COMPONENT;
 	
 	signal transitoryI_D : STD_LOGIC_VECTOR(9 downto 0);
+	signal d_indff, d_indffLatched : STD_LOGIC_VECTOR(7 downto 0);
 	signal transitorySerialOut, enableCount, countEqualTen : STD_LOGIC;
 	signal countValue : STD_LOGIC_VECTOR(3 downto 0);
 begin
+
+
 	transitoryI_D(9) <= '1';
 	transitoryI_D(0) <= '0';
 	
+	d_indff(6 downto 0) <= D_In;
+	d_indff(7) <= '0';
+	
 	dFF_8bitID : dFF_8bit
 		PORT MAP (
-			i_d => D_In,
+			i_d => d_indff,
 			i_en => loadTDR,
 			i_reset => GReset,
 			i_clock => GClock,
-			o_q => transitoryI_D(8 downto 1),
+			o_q => d_indffLatched,
 			o_qBar => open
+		);
+		
+	transitoryI_D(7 downto 1) <= d_indffLatched(6 downto 0);
+		
+	parityGen_check : parityGen
+		PORT MAP (
+			i_d => transitoryI_D(7 downto 1),
+			p_out => transitoryI_D(8)
 		);
 		
 	ParallelInSerialOut_8BitTXD : ParallelInSerialOut_8Bit
@@ -97,7 +118,7 @@ begin
 			d_out => TxD
 		);
 	
-	enableCount <= not shiftLoad and not countEqualTen;
+	enableCount <= not countEqualTen;
 	
 	counter_4bit_count_10 : counter_4bit
 		PORT MAP (
@@ -111,9 +132,13 @@ begin
 	equality_Comparator_4bit_donesend : equality_Comparator_4bit
 		PORT MAP (
 			A => countValue,
-			B => "1001",
+			B => "1010",
 			isEqual => countEqualTen
 		);
-	TDRE <= countEqualTen;
+	TDRE <= countEqualTen OR 
+	(NOT (countValue(3) XOR '0') AND 
+	             NOT (countValue(2) XOR '0') AND 
+	             NOT (countValue(1) XOR '0') AND 
+	             NOT (countValue(0) XOR '0'));
 	
 end basic;

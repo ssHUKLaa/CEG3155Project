@@ -85,7 +85,7 @@ begin
 		PORT MAP (
 			i_d => isAtEight,
 			i_en => '1',
-			i_reset => '0',
+			i_reset => GReset,
 			i_clock => BClkx8,
 			o_q => Latch8,
 			o_qBar => open
@@ -94,12 +94,12 @@ begin
 		PORT MAP (
 			i_d => isInMiddle,
 			i_en => '1',
-			i_reset => '0',
+			i_reset => GReset,
 			i_clock => BClkx8,
 			o_q => Latch4,
 			o_qBar => open
 		);
-	isStartBit <= NOT RxD AND NOT isInMiddle AND NOT (numBitsCollected(3) XOR '0') AND NOT (numBitsCollected(2) XOR '0') AND NOT (numBitsCollected(1) XOR '0') AND NOT (numBitsCollected(0) XOR '0');
+	isStartBit <= NOT RxD AND NOT Latch4 AND NOT (numBitsCollected(3) XOR '0') AND NOT (numBitsCollected(2) XOR '0') AND NOT (numBitsCollected(1) XOR '0') AND NOT (numBitsCollected(0) XOR '0');
 	equality_Comparator_4bit_startsmpl : equality_Comparator_4bit
 		PORT MAP (
 			A => numBitsCollected,
@@ -117,7 +117,7 @@ begin
 		PORT MAP (
 			i_d => finishedCapture,
 			i_en => '1',
-			i_reset => '0',
+			i_reset => GReset,
 			i_clock => BClkx8,
 			o_q => finishedCaptureLatch,
 			o_qBar => open
@@ -147,7 +147,7 @@ begin
 			i_d => transitoryPRecieve,
 			i_en => '1',
 			i_reset => GReset,
-			i_clock => GClock,
+			i_clock => BClkx8,
 			o_q => RecieveOut,
 			o_qBar => open
 		);
