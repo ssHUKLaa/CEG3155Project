@@ -1,4 +1,4 @@
-C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\d_FF.vhd}
+C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -38,7 +38,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity ParallelInSerialOut_8Bit
 -- Compiling architecture rtl of ParallelInSerialOut_8Bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\SerialInParallelOut_8Bit.vhd}
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -80,6 +80,14 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity UARTaddressDecode
 -- Compiling architecture rtl of UARTaddressDecode
 
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2to1_2bit
+-- Compiling architecture structural of mux_2to1_2bit
+
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -88,13 +96,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity debouncer
 -- Compiling architecture rtl of debouncer
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux_2to1_2bit
--- Compiling architecture structural of mux_2to1_2bit
+-- Compiling entity UARTTransmitter
+-- Compiling architecture basic of UARTTransmitter
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -104,7 +112,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_2to1_4bit
 -- Compiling architecture structural of mux_2to1_4bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\BaudRateGen.vhd}
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -120,7 +128,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity trafficLighttopLevel
 -- Compiling architecture basic of trafficLighttopLevel
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit {C:\Users\sahil\Documents\repos\Ceg3155Project\counter_4bit.vhd}
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
