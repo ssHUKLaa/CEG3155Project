@@ -239,7 +239,7 @@ begin
 	
 	BCD_to_7Segment_inst : BCD_to_7Segment
 		PORT MAP (
-			A_in => displayOnBCD2,
+			A_in => displayOnBCD,
 			seg => SegmentOut
 		);
 	SegmentOut <= NOT TransitorySegmentOut;
