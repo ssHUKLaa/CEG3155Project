@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.ALL;
 
 Entity trafficLighttopLevel IS
 	PORT (
-		GClock, GReset, SSCS : IN STD_LOGIC;
+		GClock, GReset, SSCS, ProceedNextState : IN STD_LOGIC;
 		MSC, SSC : IN STD_LOGIC_VECTOR(3 downto 0);
 		MSTL, SSTL : OUT STD_LOGIC_VECTOR(2 downto 0);
 		SegmentOut : OUT STD_LOGIC_VECTOR(13 downto 0)
@@ -84,12 +84,13 @@ architecture basic of trafficLighttopLevel IS
 		);
 	END COMPONENT;
 	
+	signal TransitorySegmentOut : STD_LOGIC_VECTOR(13 downto 0);
 	signal MT, SST : STD_LOGIC_VECTOR(3 downto 0);
 	signal transitoryMSLT, transitoryMTTT, transitorySSLT, transitorySSTT, displayOnBCD, displayOnBCD2 : STD_LOGIC_VECTOR(3 downto 0);
 	signal MSTLIsGreen, MSTLIsYellow, MSTLIsRed : STD_LOGIC;
 	signal SSTLIsGreen, SSTLIsYellow : STD_LOGIC;
 	signal STDtransitoryMSTL, STDtransitorySSTL, STDtransitoryMSTLDecider, STDtransitorySSTLDecider : STD_LOGIC_VECTOR(1 downto 0);
-	signal MSLTHoldCond, MSTLReachedEnd : STD_LOGIC;
+	signal BrakeNextState, MSLTHoldCond, MSTLReachedEnd, MTTTHoldCond, SSTLHoldCond, SSTHoldCond : STD_LOGIC;
 	signal SSTLReachedEnd : STD_LOGIC;
 	signal SSTReachedEnd : STD_LOGIC;
 	signal MTReachedEnd : STD_LOGIC;
@@ -100,7 +101,10 @@ begin
 	
 	STDtransitoryMSTL <= STDtransitoryMSTLDecider;
 	STDtransitorySSTL <= STDtransitorySSTLDecider;
-	MSLTHoldCond <= MSTLReachedEnd AND NOT SSCS;
+	MSLTHoldCond <= (NOT (ProceedNextState AND SSCS)) AND MSTLReachedEnd;
+	MTTTHoldCond <= NOT ProceedNextState AND MTReachedEnd;
+	SSTLHoldCond <= NOT ProceedNextState AND SSTLReachedEnd;
+	SSTHoldCond <= NOT ProceedNextState AND SSTReachedEnd;
 		
 	counter_4bit_MSLTimer : counter_4bit
 		PORT MAP (
@@ -122,7 +126,7 @@ begin
 		PORT MAP (
 			CLK => GClock,
 			i_enable => STDtransitoryMSTL(0),
-			i_hold => '0',
+			i_hold => MTTTHoldCond,
 			i_reset => GReset,
 			COUNT => transitoryMTTT
 		);
@@ -138,7 +142,7 @@ begin
 		PORT MAP (
 			CLK => GClock,
 			i_enable => STDtransitorySSTL(1),
-			i_hold => '0',
+			i_hold => SSTLHoldCond,
 			i_reset => GReset,
 			COUNT => transitorySSLT
 		);
@@ -154,7 +158,7 @@ begin
 		PORT MAP (
 			CLK => GClock,
 			i_enable => STDtransitorySSTL(0),
-			i_hold => '0',
+			i_hold => SSTHoldCond,
 			i_reset => GReset,
 			COUNT => transitorySSTT
 		);
@@ -176,13 +180,13 @@ begin
 	MSTLIsRed <= (MTReachedEnd AND (NOT STDtransitoryMSTL(1) AND STDtransitoryMSTL(0))) OR 
 	((NOT SSTReachedEnd OR NOT SSTLReachedEnd) AND (NOT STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0)));
 	
-	
+	BrakeNextState <= GClock AND (ProceedNextState OR ((NOT STDtransitorySSTLDecider(1) AND NOT STDtransitorySSTLDecider(0)) AND (NOT STDtransitoryMSTLDecider(1) AND NOT STDtransitoryMSTLDecider(0))));
 	d_FF_MSTL_High : d_FF
 		PORT MAP (
 			i_d => MSTLIsGreen, 
 			i_en => '1',
 			i_reset => GReset,
-			i_clock => GClock, 
+			i_clock => BrakeNextState, 
 			o_q => STDtransitoryMSTLDecider(1), 
 			o_qBar => open
 		);
@@ -192,7 +196,7 @@ begin
 			i_d => MSTLIsYellow, 
 			i_en => '1',
 			i_reset => GReset,
-			i_clock => GClock, 
+			i_clock => BrakeNextState, 
 			o_q => STDtransitoryMSTLDecider(0), 
 			o_qBar => open
 		);
@@ -203,12 +207,13 @@ begin
 	SSTLIsYellow <= (SSTLReachedEnd AND (STDtransitorySSTL(1) AND NOT STDtransitorySSTL(0))) OR 
 	(NOT SSTReachedEnd AND (NOT STDtransitorySSTL(1) AND STDtransitorySSTL(0)));	
 	
+	
 	d_FF_SSTL_High : d_FF
 		PORT MAP (
 			i_d => SSTLIsGreen, 
 			i_en => '1',
 			i_reset => GReset,
-			i_clock => GClock, 
+			i_clock => BrakeNextState, 
 			o_q => STDtransitorySSTLDecider(1), 
 			o_qBar => open
 		);
@@ -218,7 +223,7 @@ begin
 			i_d => SSTLIsYellow, 
 			i_en => '1',
 			i_reset => GReset,
-			i_clock => GClock, 
+			i_clock => BrakeNextState, 
 			o_q => STDtransitorySSTLDecider(0), 
 			o_qBar => open
 		);
@@ -231,13 +236,12 @@ begin
 	MSTL(2) <= STDtransitoryMSTLDecider(1);
 	
 	displayOnBCD <= transitoryMSLT OR transitoryMTTT OR transitorySSLT OR transitorySSTT;
-	displayOnBCD2 <= NOT displayOnBCD;
 	
 	BCD_to_7Segment_inst : BCD_to_7Segment
 		PORT MAP (
 			A_in => displayOnBCD2,
 			seg => SegmentOut
 		);
-	
+	SegmentOut <= NOT TransitorySegmentOut;
 	
 end basic;

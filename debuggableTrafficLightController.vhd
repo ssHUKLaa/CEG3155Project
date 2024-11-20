@@ -15,7 +15,7 @@ ARCHITECTURE basic OF debuggableTrafficLightController IS
 
 	COMPONENT trafficLighttopLevel
 		PORT (
-			GClock, GReset, SSCS : IN STD_LOGIC;
+			GClock, GReset, SSCS, ProceedNextState : IN STD_LOGIC;
 			MSC, SSC : IN STD_LOGIC_VECTOR(3 downto 0);
 			MSTL, SSTL : OUT STD_LOGIC_VECTOR(2 downto 0);
 			SegmentOut : OUT STD_LOGIC_VECTOR(13 downto 0)
@@ -53,7 +53,16 @@ ARCHITECTURE basic OF debuggableTrafficLightController IS
 		);
 	END COMPONENT;
 	
-	signal dividedClock, transitoryClock, debouncedSSCS : STD_LOGIC;
+	COMPONENT UART
+		PORT (
+			RxD, Load, GReset, GClock : IN STD_LOGIC;
+			State_Information : IN STD_LOGIC_VECTOR(5 downto 0);
+			TxD, CanProceedState : OUT STD_LOGIC
+		);
+	END COMPONENT;
+	
+	signal ProceedNextState, dividedClock, transitoryClock, debouncedSSCS : STD_LOGIC;
+	SIGNAL State_Information : STD_LOGIC_VECTOR(5 downto 0);
 	signal transitorySW1, transitorySW2 : STD_LOGIC_VECTOR(3 downto 0);
 	signal transitoryMSTL, transitorySSTL : STD_LOGIC_VECTOR(2 downto 0);
 begin
@@ -135,8 +144,8 @@ begin
 	clk_div_inst : clk_div
 		PORT MAP (
 			clock_25Mhz => GClock,
-			clock_1MHz => open,
-			clock_100KHz => dividedClock,
+			clock_1MHz => dividedClock,
+			clock_100KHz => open,
 			clock_10KHz	=> open,
 			clock_1KHz => open,
 			clock_100Hz => open,
@@ -159,10 +168,31 @@ begin
 			GClock => transitoryClock,
 			GReset => GReset,
 			SSCS => debouncedSSCS,
+			ProceedNextState => ProceedNextState,
 			MSC => transitorySW1,
 			SSC => transitorySW2,
 			MSTL => transitoryMSTL,
 			SSTL => transitorySSTL,
 			SegmentOut => SegmentOut
 		);
+	
+		
+	State_Information(5 downto 3) <= transitoryMSTL;
+	State_Information(2 downto 0) <= transitorySSTL;
+	
+	MSTL <= transitoryMSTL;
+	SSTL <= transitorySSTL;
+	
+	UART_inst : UART
+		PORT MAP (
+			RxD => RxD,
+			Load =>'1',
+			GReset => GReset,
+			GClock => transitoryClock,
+			State_Information => State_Information,
+			TxD => TxD,
+			CanProceedState => ProceedNextState
+		);
+		
+	
 end basic;

@@ -15,7 +15,7 @@ L4
 VBZXWDDRMDm?H2Bo57V_KK1
 Z6 OV;C;10.1d;51
 32
-Z7 !s108 1731655931.398000
+Z7 !s108 1731904353.519000
 Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd|
 Z9 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd|
 Z10 o-work work -2002 -explicit -O0
@@ -50,7 +50,7 @@ L4
 V3AADG>lzP7gH]cJ_0B:<T1
 R6
 32
-Z15 !s108 1731655930.694000
+Z15 !s108 1731904352.675000
 Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd|
 Z17 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd|
 R10
@@ -74,29 +74,29 @@ R11
 !s100 hEXZY4_9P^:44;V@S:Wd?1
 !i10b 1
 Eclk_div
-R12
-Z18 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-Z19 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z18 w1731718869
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z20 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 R1
 R2
 R3
-Z20 8C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd
-Z21 FC:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd
+Z21 8C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd
+Z22 FC:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd
 l0
 L31
 V^TYLDK^fO;Q0N_eOf5?[K0
 R6
 32
-Z22 !s108 1731655930.744000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd|
-Z24 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd|
+Z23 !s108 1731904352.769000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd|
+Z25 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/clk_div.vhd|
 R10
 R11
 !s100 S@MfKSJ_6A6WDM3Q4[E9j3
 !i10b 1
 Aa
-R18
 R19
+R20
 R1
 R2
 DEx4 work 7 clk_div 0 22 ^TYLDK^fO;Q0N_eOf5?[K0
@@ -105,9 +105,9 @@ L46
 Vd5f=o2:KKmbRY^HlkX;GK0
 R6
 32
-R22
 R23
 R24
+R25
 R10
 R11
 !s100 =RI=VF>3D>@R]=2MRTIAD3
@@ -117,16 +117,16 @@ R12
 R1
 R2
 R3
-Z25 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
-Z26 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
+Z26 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
+Z27 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
 l0
 L5
 Vc8ZF;S5ODZWQgbL_Oe:iW0
 R6
 32
-Z27 !s108 1731655930.796000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd|
-Z29 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd|
+Z28 !s108 1731904352.840000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd|
+Z30 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd|
 R10
 R11
 !s100 ]DCNa8WXA[ncCN^P5YReD2
@@ -140,28 +140,28 @@ L15
 V7U1Ye3DB4S;VdS:fK5Mf<0
 R6
 32
-R27
 R28
 R29
+R30
 R10
 R11
 !s100 SWHH`1Ld@1zJ87MH7EnL40
 !i10b 1
 Ecounter_6bit
-Z30 w1731012070
+Z31 w1731012070
 R1
 R2
 R3
-Z31 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
-Z32 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
+Z32 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
+Z33 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
 l0
 L5
 V48FhRamh0G=P4=ZTWOPiK1
 R6
 32
-Z33 !s108 1731655931.511000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd|
-Z35 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd|
+Z34 !s108 1731904353.648000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd|
+Z36 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd|
 R10
 R11
 !s100 XNIIN]^:<SZ6MdhAiQ6O^2
@@ -175,28 +175,28 @@ L15
 VPLHHe4lAIE]RllT;2P?f:1
 R6
 32
-R33
 R34
 R35
+R36
 R10
 R11
 !s100 6gBenDoC6ZLhWBA3aH9De1
 !i10b 1
 Ecounter_8bit
-Z36 w1731030514
+Z37 w1731030514
 R1
 R2
 R3
-Z37 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
-Z38 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
+Z38 8C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
+Z39 FC:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
 l0
 L5
 Vj3KX018XiCQEAPZ?L9Qgd1
 R6
 32
-Z39 !s108 1731655931.888000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd|
-Z41 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd|
+Z40 !s108 1731904354.094000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd|
+Z42 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd|
 R10
 R11
 !s100 nmeP>zh79=fRmHmN9L<;]1
@@ -210,28 +210,28 @@ L15
 VG[5@@jLQG9zF`zTB=lhnd3
 R6
 32
-R39
 R40
 R41
+R42
 R10
 R11
 !s100 Z<?nKN06@>DU;j=8c:zd13
 !i10b 1
 Ed_ff
-Z42 w1731477516
+Z43 w1731477516
 R1
 R2
 R3
-Z43 8C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
-Z44 FC:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
+Z44 8C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
+Z45 FC:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd
 l0
 L4
 V:eJk[TTUa=:?f6[4z?KUj1
 R6
 32
-Z45 !s108 1731655930.850000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd|
-Z47 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd|
+Z46 !s108 1731904352.899000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd|
+Z48 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/d_FF.vhd|
 R10
 R11
 !s100 hTk]^QHbKDIQn<8ReL::E0
@@ -239,15 +239,15 @@ R11
 Abehavioral
 R1
 R2
-Z48 DEx4 work 4 d_ff 0 22 :eJk[TTUa=:?f6[4z?KUj1
+Z49 DEx4 work 4 d_ff 0 22 :eJk[TTUa=:?f6[4z?KUj1
 l14
 L12
 V;n7P8o6SFoE5CfN?Lez9Q0
 R6
 32
-R45
 R46
 R47
+R48
 R10
 R11
 !s100 eM8M=n5V0L1ed>[Wo@hQL2
@@ -255,7 +255,7 @@ R11
 Artl
 R1
 R2
-R48
+R49
 l32
 L11
 ViBY5C>5[Kg_W09]:21ZPE1
@@ -276,16 +276,16 @@ R12
 R1
 R2
 R3
-Z49 8C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
-Z50 FC:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
+Z50 8C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
+Z51 FC:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
 l0
 L4
 VlkYBkma;@O?g@2f]@z;aP0
 R6
 32
-Z51 !s108 1731655931.345000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd|
-Z53 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd|
+Z52 !s108 1731904353.459000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd|
+Z54 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd|
 R10
 R11
 !s100 0>]okIJ;il3J<DBZ3]TA52
@@ -299,28 +299,63 @@ L12
 V9:V42ZU[[YkD@jOmJknj>0
 R6
 32
-R51
 R52
 R53
+R54
 R10
 R11
 !s100 25BSPMAzlP`PbDiUh6]d13
 !i10b 1
+Edebuggabletrafficlightcontroller
+Z55 w1731718928
+R1
+R2
+R3
+Z56 8C:/Users/sahil/Documents/repos/Ceg3155Project/debuggableTrafficLightController.vhd
+Z57 FC:/Users/sahil/Documents/repos/Ceg3155Project/debuggableTrafficLightController.vhd
+l0
+L4
+VzTEXGVdITICP6`k@KJgZ;0
+!s100 oCAePmB^6FEbc^TVb1VNX2
+R6
+32
+!i10b 1
+Z58 !s108 1731904354.479000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/debuggableTrafficLightController.vhd|
+Z60 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/debuggableTrafficLightController.vhd|
+R10
+R11
+Abasic
+R1
+R2
+Z61 DEx4 work 32 debuggabletrafficlightcontroller 0 22 zTEXGVdITICP6`k@KJgZ;0
+l68
+L14
+Z62 V^GY^@z?8FGdA5iIJQLEhJ0
+Z63 !s100 _<;2QNAJ]=;F@CPlZ9fF_3
+R6
+32
+!i10b 1
+R58
+R59
+R60
+R10
+R11
 Edff_8bit
 R12
 R1
 R2
 R3
-Z54 8C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd
-Z55 FC:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd
+Z64 8C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd
+Z65 FC:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd
 l0
 L4
 V@Smnn0MI?zCR1W95c>;Ah2
 R6
 32
-Z56 !s108 1731655930.905000
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd|
-Z58 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd|
+Z66 !s108 1731904352.962000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd|
+Z68 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd|
 R10
 R11
 !s100 FKDolR99?7:@_^MAGS65l3
@@ -334,9 +369,9 @@ L15
 VJc^Hj6To0KgLd3z>];52z1
 R6
 32
-R56
-R57
-R58
+R66
+R67
+R68
 R10
 R11
 !s100 ca7jAmfBW@a`PA>3hK<9I3
@@ -346,16 +381,16 @@ R12
 R1
 R2
 R3
-Z59 8C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd
-Z60 FC:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd
+Z69 8C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd
+Z70 FC:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd
 l0
 L4
 VjRihek:l0RQIE4H]lagKO2
 R6
 32
-Z61 !s108 1731655930.957000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd|
-Z63 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd|
+Z71 !s108 1731904353.020000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd|
+Z73 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd|
 R10
 R11
 !s100 D;>M2JLa?=ViS6W?XJ?^[3
@@ -369,9 +404,9 @@ L11
 VH7d1l38R;Vk>aKK7b[f]m1
 R6
 32
-R61
-R62
-R63
+R71
+R72
+R73
 R10
 R11
 !s100 1XLEXSR0f9N8Ace@[JAdW2
@@ -381,16 +416,16 @@ R12
 R1
 R2
 R3
-Z64 8C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd
-Z65 FC:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd
+Z74 8C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd
+Z75 FC:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd
 l0
 L4
 Vl93eaODn1;^CMKgZlLefm3
 R6
 32
-Z66 !s108 1731655931.010000
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd|
-Z68 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd|
+Z76 !s108 1731904353.083000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd|
+Z78 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_4bit.vhd|
 R10
 R11
 !s100 lFXcDV73U]YB5eDP<7f]33
@@ -404,28 +439,28 @@ L11
 V?7=BgTAbJzi[X6U54>XLX0
 R6
 32
-R66
-R67
-R68
+R76
+R77
+R78
 R10
 R11
 !s100 KUB56ISEi>meARk5JKYQA1
 !i10b 1
 Eequality_comparator_6bit
-Z69 w1731010554
+Z79 w1731010554
 R1
 R2
 R3
-Z70 8C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd
-Z71 FC:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd
+Z80 8C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd
+Z81 FC:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd
 l0
 L4
 VD`R;niiF@0P5_<z?8YKAU1
 R6
 32
-Z72 !s108 1731655931.453000
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd|
-Z74 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd|
+Z82 !s108 1731904353.580000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd|
+Z84 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd|
 R10
 R11
 !s100 E?MAfYeQh8`4Pe0<_^;Fc1
@@ -439,28 +474,28 @@ L11
 VP85DNGoHJ_kT^940Ll8Ah0
 R6
 32
-R72
-R73
-R74
+R82
+R83
+R84
 R10
 R11
 !s100 ALM02Y2J^F`NXkn>zf<b80
 !i10b 1
 Einterruptgenerator
-Z75 w1731008855
+Z85 w1731008855
 R1
 R2
 R3
-Z76 8C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd
-Z77 FC:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd
+Z86 8C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd
+Z87 FC:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd
 l0
 L4
 VIKDY;Vm8^L3OT?>SzmM]_0
 R6
 32
-Z78 !s108 1731655931.619000
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd|
-Z80 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd|
+Z88 !s108 1731904353.775000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd|
+Z90 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/InterruptGenerator.vhd|
 R10
 R11
 !s100 a@=7A21JbSfT9L8`FFj5:1
@@ -474,9 +509,9 @@ L11
 Vc5U5:^_LcIR=d]2GEK@eI3
 R6
 32
-R78
-R79
-R80
+R88
+R89
+R90
 R10
 R11
 !s100 41Z^hDQHMTOj[mb]^OFhY0
@@ -486,16 +521,16 @@ R12
 R1
 R2
 R3
-Z81 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
-Z82 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
+Z91 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
+Z92 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
 l0
 L4
 Vk5kDeTH36]EOSl_e9Dii02
 R6
 32
-Z83 !s108 1731655931.066000
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd|
-Z85 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd|
+Z93 !s108 1731904353.146000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd|
+Z95 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd|
 R10
 R11
 !s100 RhIdREJ46]ziejWEQc<fC2
@@ -509,9 +544,9 @@ L13
 VCCPjhEkc4W`7d=aLOna5V0
 R6
 32
-R83
-R84
-R85
+R93
+R94
+R95
 R10
 R11
 !s100 BGWNCPQ2DcNL]PTAGTjA]0
@@ -521,16 +556,16 @@ R12
 R1
 R2
 R3
-Z86 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
-Z87 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
+Z96 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
+Z97 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
 l0
 L4
 VQS2?1RBX4dcKc^34>gWZN1
 R6
 32
-Z88 !s108 1731655931.123000
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd|
-Z90 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd|
+Z98 !s108 1731904353.210000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd|
+Z100 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd|
 R10
 R11
 !s100 L<R0M74c=DDm[L=cngk:T3
@@ -544,9 +579,9 @@ L13
 VBa8DfVH4b^9:6PBA8Z0<M2
 R6
 32
-R88
-R89
-R90
+R98
+R99
+R100
 R10
 R11
 !s100 XN2nJkH;0L6TYPnNJWzB70
@@ -556,16 +591,16 @@ R12
 R1
 R2
 R3
-Z91 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
-Z92 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
+Z101 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
+Z102 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
 l0
 L4
 V8JVgW@Pl<C1@D7kb>`W]m0
 R6
 32
-Z93 !s108 1731655931.178000
-Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd|
-Z95 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd|
+Z103 !s108 1731904353.271000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd|
+Z105 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd|
 R10
 R11
 !s100 4=e`@TEmoAUcg2I]628zV3
@@ -579,28 +614,28 @@ L15
 VZ9[HFZzj6TGP3[l]QFc941
 R6
 32
-R93
-R94
-R95
+R103
+R104
+R105
 R10
 R11
 !s100 jgnNXdAnn]51C81S=:5cP3
 !i10b 1
 Emux_2to1_6bit
-Z96 w1731010180
+Z106 w1731010180
 R1
 R2
 R3
-Z97 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
-Z98 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
+Z107 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
+Z108 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
 l0
 L4
 V?X0Z^eb0jJIz<Sme_=f`b3
 R6
 32
-Z99 !s108 1731655931.565000
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd|
-Z101 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd|
+Z109 !s108 1731904353.712000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd|
+Z111 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd|
 R10
 R11
 !s100 F4@4XEZ=UBATUg03V;fC80
@@ -614,28 +649,28 @@ L15
 VQDKeKHVO[mAb^W:CRO=i]2
 R6
 32
-R99
-R100
-R101
+R109
+R110
+R111
 R10
 R11
 !s100 Xlg2F]JWiShS@9UY>njGN1
 !i10b 1
 Emux_2to1_8bit
-Z102 w1731015833
+Z112 w1731015833
 R1
 R2
 R3
-Z103 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd
-Z104 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd
+Z113 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd
+Z114 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd
 l0
 L4
 Vbh>Ce@MRC`1jo=<Ee2DJe2
 R6
 32
-Z105 !s108 1731655931.998000
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd|
-Z107 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd|
+Z115 !s108 1731904354.221000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd|
+Z117 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd|
 R10
 R11
 !s100 fl>[B3X;^61@9N;IfoO]J2
@@ -649,9 +684,9 @@ L15
 VdVl2j@Xa9[kK;e;RGRa0H2
 R6
 32
-R105
-R106
-R107
+R115
+R116
+R117
 R10
 R11
 !s100 CclzOCHPSlFWhoo4RJ9403
@@ -661,16 +696,16 @@ R12
 R1
 R2
 R3
-Z108 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd
-Z109 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd
+Z118 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd
+Z119 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd
 l0
 L4
 V^Q]N^YN<h>6_nE<`ElJ_C3
 R6
 32
-Z110 !s108 1731655931.230000
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd|
-Z112 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd|
+Z120 !s108 1731904353.332000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd|
+Z122 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_4to1_1bit.vhd|
 R10
 R11
 !s100 a3on`Sm6<jQkkg2=BH]8K0
@@ -684,28 +719,28 @@ L12
 VA<fTP;6@]_@8L<7GOPf2d1
 R6
 32
-R110
-R111
-R112
+R120
+R121
+R122
 R10
 R11
 !s100 UTK2heF2K?>XnaOeEMGma2
 !i10b 1
 Emux_8to1_1bit
-Z113 w1731016279
+Z123 w1731016279
 R1
 R2
 R3
-Z114 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd
-Z115 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd
+Z124 8C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd
+Z125 FC:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd
 l0
 L4
 VhaXS`[9Z;DezNB7UM8jSA3
 R6
 32
-Z116 !s108 1731655931.945000
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd|
-Z118 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd|
+Z126 !s108 1731904354.153000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd|
+Z128 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/mux_8to1_1bit.vhd|
 R10
 R11
 !s100 1i`>Q9KU2[56_EHXf42]63
@@ -719,28 +754,28 @@ L12
 VG?_^<5RK^2N0KeFA3:a2;2
 R6
 32
-R116
-R117
-R118
+R126
+R127
+R128
 R10
 R11
 !s100 1NH4XBZMFS<<Lekdmi1RS2
 !i10b 1
 Eparallelinserialout_8bit
-Z119 w1731609892
+Z129 w1731609892
 R1
 R2
 R3
-Z120 8C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd
-Z121 FC:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd
+Z130 8C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd
+Z131 FC:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd
 l0
 L4
 VP8OR=AVmAPiTBec_1mWAe2
 R6
 32
-Z122 !s108 1731655931.835000
-Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd|
-Z124 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd|
+Z132 !s108 1731904354.031000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd|
+Z134 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/ParallelInSerialOut_8Bit.vhd|
 R10
 R11
 !s100 T`>5`h3=Njbio8oIShXdk1
@@ -754,28 +789,28 @@ L15
 VEIR43Ok:V0CiOVACo:[7d0
 R6
 32
-R122
-R123
-R124
+R132
+R133
+R134
 R10
 R11
 !s100 L_29[hZ@PHmbZR_R0L[EM0
 !i10b 1
 Eparitygen
-Z125 w1731362016
+Z135 w1731362016
 R1
 R2
 R3
-Z126 8C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
-Z127 FC:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
+Z136 8C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
+Z137 FC:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
 l0
 L4
 VG3mcAdEOoddlOZ7dY32iK3
 R6
 32
-Z128 !s108 1731655931.677000
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd|
-Z130 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd|
+Z138 !s108 1731904353.843000
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd|
+Z140 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd|
 R10
 R11
 !s100 ^^7MH?S^abOX4BYPGN3883
@@ -789,28 +824,28 @@ L10
 VE?4OQYlMOXi0U76EG@49c1
 R6
 32
-R128
-R129
-R130
+R138
+R139
+R140
 R10
 R11
 !s100 JaYj;@o`1InKS?bb=<IdR0
 !i10b 1
 Eregister_8bit
-Z131 w1728520921
+Z141 w1728520921
 R1
 R2
 R3
-Z132 8C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd
-Z133 FC:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd
+Z142 8C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd
+Z143 FC:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd
 l0
 L4
 Vm[HW=Bh0XE6T9ZcmJD6mn2
 R6
 32
-Z134 !s108 1730582033.698000
-Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd|
-Z136 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd|
+Z144 !s108 1730582033.698000
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd|
+Z146 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/register_8bit.vhd|
 R10
 R11
 !s100 6^8;ZXl=_OLU?OCB3?h4h0
@@ -824,28 +859,28 @@ L13
 VPlRNWOJTVRadz02n?iLhI1
 R6
 32
-R134
-R135
-R136
+R144
+R145
+R146
 R10
 R11
 !s100 c<bRi^Hb6b@nH3K5jjDJU2
 !i10b 1
 Eserialinparallelout_8bit
-Z137 w1731477726
+Z147 w1731477726
 R1
 R2
 R3
-Z138 8C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd
-Z139 FC:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd
+Z148 8C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd
+Z149 FC:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd
 l0
 L4
 V0dM0>[G3nkI3nQlUOT1Wg3
 R6
 32
-Z140 !s108 1731655931.785000
-Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd|
-Z142 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd|
+Z150 !s108 1731904353.972000
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd|
+Z152 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/SerialInParallelOut_8Bit.vhd|
 R10
 R11
 !s100 j<zP?WK=>L<WzfDWX0MDR0
@@ -859,28 +894,28 @@ L13
 V2FSVo@LEH:9Sh]`m_h^L30
 R6
 32
-R140
-R141
-R142
+R150
+R151
+R152
 R10
 R11
 !s100 ?NjHTZC`?R<?joCl63CfO1
 !i10b 1
 Etoplevel
-Z143 w1730581461
+Z153 w1730581461
 R1
 R2
 R3
-Z144 8C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd
-Z145 FC:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd
+Z154 8C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd
+Z155 FC:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd
 l0
 L4
 VQ;@b7DhD0Q;YkRI2f6Q?o2
 R6
 32
-Z146 !s108 1730581515.736000
-Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd|
-Z148 !s107 C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd|
+Z156 !s108 1730581515.736000
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd|
+Z158 !s107 C:\Users\sahil\Documents\repos\Ceg3155Project\topLevel.vhd|
 R10
 R11
 !s100 P6ghnd`eKEM0_3aMBO4WS2
@@ -894,98 +929,98 @@ L13
 Vk1P@TM4V=AOFL5g9O3MkO0
 R6
 32
-R146
-R147
-R148
+R156
+R157
+R158
 R10
 R11
 !s100 1FzE^1_Z7SYGdQ0>>2e2?0
 !i10b 1
 Etrafficlighttoplevel
-Z149 w1731477510
+Z159 w1731717338
 R1
 R2
 R3
-Z150 8C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
-Z151 FC:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
+Z160 8C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
+Z161 FC:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
 l0
 L4
-V0V?]5UEJPkH9FhN[YL[`40
+V9edbn^>S>=Gf?5Yee:FGE3
 R6
 32
-Z152 !s108 1731655931.292000
-Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd|
-Z154 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd|
+Z162 !s108 1731904353.397000
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd|
+Z164 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd|
 R10
 R11
-!s100 Yio<^iYl4XXHmT@GjiaZT2
+!s100 UQPeK4_Pi1dUfWND2A8Po3
 !i10b 1
 Abasic
 R1
 R2
-DEx4 work 20 trafficlighttoplevel 0 22 0V?]5UEJPkH9FhN[YL[`40
+DEx4 work 20 trafficlighttoplevel 0 22 9edbn^>S>=Gf?5Yee:FGE3
 l96
 L13
-V_QP1]GPH2Vh<DmaR7f;K:2
+VkUS_[EXSCj@jgKIQL?0iM3
 R6
 32
-R152
-R153
-R154
+R162
+R163
+R164
 R10
 R11
-!s100 mjiKPXe?d9<nPl3h<ZTf<3
+!s100 k^f4G8a?`EHh5hmmIXIk:3
 !i10b 1
 Euart
-Z155 w1731654951
+Z165 w1731904324
 R1
 R2
 R3
-Z156 8C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd
-Z157 FC:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd
+Z166 8C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd
+Z167 FC:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd
 l0
 L4
-VWhV6Ue@J=Xo?E0J3H?9_82
+VjXBGP;OWa;fge7Z^eZe?D2
 R6
 32
-Z158 !s108 1731655932.155000
-Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd|
-Z160 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd|
+Z168 !s108 1731904354.413000
+Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd|
+Z170 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UART.vhd|
 R10
 R11
-!s100 cMX5GKWEbm:UMLV=5<8Mm2
+!s100 kKWX:iQH3b<gD;_K8>mV=0
 !i10b 1
 Abasic
 R1
 R2
-DEx4 work 4 uart 0 22 WhV6Ue@J=Xo?E0J3H?9_82
-l77
-L13
-V2FiG0[VTG_F7GZTmn`Vk62
+DEx4 work 4 uart 0 22 jXBGP;OWa;fge7Z^eZe?D2
+l105
+L12
+V?eL:O=NEAI;fLH9fJ499]0
 R6
 32
-R158
-R159
-R160
+R168
+R169
+R170
 R10
 R11
-!s100 c3:Yn521Q_]SYHdbYG5KS2
+!s100 07T14z@e::BF<C3_K_Zjb2
 !i10b 1
 Euartaddressdecode
-Z161 w1730950337
+Z171 w1730950337
 R1
 R2
 R3
-Z162 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd
-Z163 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd
+Z172 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd
+Z173 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd
 l0
 L4
 V[ST9i2`knR5iLgnRDRl7Z2
 R6
 32
-Z164 !s108 1731655931.732000
-Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd|
-Z166 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd|
+Z174 !s108 1731904353.908000
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd|
+Z176 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTaddressDecode.vhd|
 R10
 R11
 !s100 X`AD]bTS`]=;jgYb@SI:R3
@@ -999,28 +1034,28 @@ L11
 Vb1MgzzMcY90AmQB:dAW;j2
 R6
 32
-R164
-R165
-R166
+R174
+R175
+R176
 R10
 R11
 !s100 =l8K5F2mZ^XIh5^gmD<@U1
 !i10b 1
 Euartreciever
-Z167 w1731650064
+Z177 w1731650064
 R1
 R2
 R3
-Z168 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd
-Z169 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd
+Z178 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd
+Z179 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd
 l0
 L4
 V5=GnPW^9fU>Poa1z]5I3D0
 R6
 32
-Z170 !s108 1731655932.104000
-Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd|
-Z172 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd|
+Z180 !s108 1731904354.348000
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd|
+Z182 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd|
 R10
 R11
 !s100 EFJh7CklVV]d51CjK1m900
@@ -1034,45 +1069,45 @@ L12
 V670UKlghX8dXnUTC4Ta7^2
 R6
 32
-R170
-R171
-R172
+R180
+R181
+R182
 R10
 R11
 !s100 3^6oni9;T:P_mM[=JH2UH2
 !i10b 1
 Euarttransmitter
-Z173 w1731656476
+Z183 w1731713351
 R1
 R2
 R3
-Z174 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
-Z175 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
+Z184 8C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
+Z185 FC:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
 l0
 L4
-VX^OJNFH9X2:QFQ6j>nIoQ0
-!s100 P4PdLJ4eB=C`nE3R0Hm=B2
+VL4BhQbmDD4@^KLzLUCPGT3
 R6
 32
-!i10b 1
-Z176 !s108 1731656487.031000
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd|
-Z178 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd|
+Z186 !s108 1731904354.287000
+Z187 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd|
+Z188 !s107 C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd|
 R10
 R11
+!s100 cE?^]dTNoTcf_L]kfE7Ao0
+!i10b 1
 Abasic
 R1
 R2
-Z179 DEx4 work 15 uarttransmitter 0 22 X^OJNFH9X2:QFQ6j>nIoQ0
+DEx4 work 15 uarttransmitter 0 22 L4BhQbmDD4@^KLzLUCPGT3
 l74
 L12
-V`<DhG5W;z@A0MJVZ`8ZF[2
-!s100 2[Cb^Cl^]5[C[nQ_5bQJ60
+VlkkTZ=I9OAMEdNWB0^HjL0
 R6
 32
-!i10b 1
-R176
-R177
-R178
+R186
+R187
+R188
 R10
 R11
+!s100 H6CSNL=g]f^I<Scn0Rj1F2
+!i10b 1

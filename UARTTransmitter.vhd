@@ -5,7 +5,7 @@ ENTITY UARTTransmitter IS
 	PORT (
 		loadTDR, GReset, GClock, BaudRate, shiftLoad : IN STD_LOGIC;
 		D_In : IN STD_LOGIC_VECTOR(6 downto 0);
-		TxD, TDRE : OUT STD_LOGIC
+		TxD, TDRE, countEqualTenOut : OUT STD_LOGIC
 	);
 END UARTTransmitter;
 
@@ -135,6 +135,7 @@ begin
 			B => "1010",
 			isEqual => countEqualTen
 		);
+	countEqualTenOut <= countEqualTen;
 	TDRE <= countEqualTen OR 
 	(NOT (countValue(3) XOR '0') AND 
 	             NOT (countValue(2) XOR '0') AND 
