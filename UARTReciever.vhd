@@ -79,8 +79,10 @@ begin
 			COUNT => countEightVal
 		);
 	
-	isInMiddle <= NOT isStartBit AND NOT startSample AND NOT (NOT (countFourVal(3) XOR '0') AND NOT (countFourVal(2) XOR '0') AND NOT (countFourVal(1) XOR '1') AND NOT (countFourVal(0) XOR '1')) ;
-	isAtEight <= (NOT isInMiddle AND isStartBit) OR (startSample AND NOT (NOT (countEightVal(3) XOR '0') AND NOT (countEightVal(2) XOR '1') AND NOT (countEightVal(1) XOR '1') AND NOT (countEightVal(0) XOR '0')));
+	isInMiddle <= NOT isStartBit AND NOT startSample AND NOT (NOT (countFourVal(3) XOR '0') 
+	AND NOT (countFourVal(2) XOR '0') AND NOT (countFourVal(1) XOR '1') AND NOT (countFourVal(0) XOR '1'));
+	isAtEight <= (NOT isInMiddle AND isStartBit) OR (startSample AND NOT (NOT (countEightVal(3) XOR '0') 
+	AND NOT (countEightVal(2) XOR '1') AND NOT (countEightVal(1) XOR '1') AND NOT (countEightVal(0) XOR '0')));
 	d_FF_latch8 : d_FF
 		PORT MAP (
 			i_d => isAtEight,

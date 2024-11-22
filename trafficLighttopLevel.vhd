@@ -180,7 +180,8 @@ begin
 	MSTLIsRed <= (MTReachedEnd AND (NOT STDtransitoryMSTL(1) AND STDtransitoryMSTL(0))) OR 
 	((NOT SSTReachedEnd OR NOT SSTLReachedEnd) AND (NOT STDtransitoryMSTL(1) AND NOT STDtransitoryMSTL(0)));
 	
-	BrakeNextState <= GClock AND (ProceedNextState OR ((NOT STDtransitorySSTLDecider(1) AND NOT STDtransitorySSTLDecider(0)) AND (NOT STDtransitoryMSTLDecider(1) AND NOT STDtransitoryMSTLDecider(0))));
+	BrakeNextState <= GClock AND (ProceedNextState OR ((NOT STDtransitorySSTLDecider(1) AND NOT STDtransitorySSTLDecider(0)) 
+	AND (NOT STDtransitoryMSTLDecider(1) AND NOT STDtransitoryMSTLDecider(0))));
 	d_FF_MSTL_High : d_FF
 		PORT MAP (
 			i_d => MSTLIsGreen, 
@@ -240,7 +241,7 @@ begin
 	BCD_to_7Segment_inst : BCD_to_7Segment
 		PORT MAP (
 			A_in => displayOnBCD,
-			seg => SegmentOut
+			seg => TransitorySegmentOut
 		);
 	SegmentOut <= NOT TransitorySegmentOut;
 	

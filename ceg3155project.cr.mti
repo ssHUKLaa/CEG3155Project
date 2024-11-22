@@ -22,14 +22,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_4to1_1bit
 -- Compiling architecture structural of mux_4to1_1bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/UARTReciever.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity UARTReciever
--- Compiling architecture basic of UARTReciever
-
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/equality_Comparator_6bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -104,14 +96,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity UARTaddressDecode
 -- Compiling architecture rtl of UARTaddressDecode
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity debouncer
--- Compiling architecture rtl of debouncer
-
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_2bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -120,13 +104,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_2to1_2bit
 -- Compiling architecture structural of mux_2to1_2bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/debouncer.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity UARTTransmitter
--- Compiling architecture basic of UARTTransmitter
+-- Compiling entity debouncer
+-- Compiling architecture rtl of debouncer
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_4bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -136,21 +120,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_2to1_4bit
 -- Compiling architecture structural of mux_2to1_4bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/trafficLighttopLevel.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/UARTTransmitter.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity trafficLighttopLevel
--- Compiling architecture basic of trafficLighttopLevel
-
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity counter_4bit
--- Compiling architecture Structural of counter_4bit
+-- Compiling entity UARTTransmitter
+-- Compiling architecture basic of UARTTransmitter
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BaudRateGen.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -160,13 +136,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity BaudRateGen
 -- Compiling architecture basic of BaudRateGen
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_4bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux_2to1_6bit
--- Compiling architecture structural of mux_2to1_6bit
+-- Compiling entity counter_4bit
+-- Compiling architecture Structural of counter_4bit
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/parityGen.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -176,21 +152,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity parityGen
 -- Compiling architecture rtl of parityGen
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_6bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity counter_6bit
--- Compiling architecture Structural of counter_6bit
-
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity BCD_to_7Segment
--- Compiling architecture Structural of BCD_to_7Segment
+-- Compiling entity mux_2to1_6bit
+-- Compiling architecture structural of mux_2to1_6bit
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/enabledsrlatch.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -200,6 +168,22 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity enabledSRLatch
 -- Compiling architecture rtl of enabledSRLatch
 
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/BCD_to_7Segment.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD_to_7Segment
+-- Compiling architecture Structural of BCD_to_7Segment
+
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_6bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter_6bit
+-- Compiling architecture Structural of counter_6bit
+
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_8bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -208,13 +192,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity mux_2to1_8bit
 -- Compiling architecture structural of mux_2to1_8bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux_2to1_1bit
--- Compiling architecture structural of mux_2to1_1bit
+-- Compiling entity counter_8bit
+-- Compiling architecture Structural of counter_8bit
 
 } {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/dff_8bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -224,12 +208,12 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity dFF_8bit
 -- Compiling architecture rtl of dFF_8bit
 
-} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/counter_8bit.vhd
+} {} {}} C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/sahil/Documents/repos/Ceg3155Project/mux_2to1_1bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity counter_8bit
--- Compiling architecture Structural of counter_8bit
+-- Compiling entity mux_2to1_1bit
+-- Compiling architecture structural of mux_2to1_1bit
 
 } {} {}}
